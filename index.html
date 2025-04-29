@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_a025ce9adc0b95b084975378aaf0e5c4 {
+                #map_25463c95a03d9fd3d890fc98531f3d6a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,7 +39,7 @@
 <body>
     
     
-            <div class="folium-map" id="map_a025ce9adc0b95b084975378aaf0e5c4" ></div>
+            <div class="folium-map" id="map_25463c95a03d9fd3d890fc98531f3d6a" ></div>
         
     
             <div style="position: fixed; top: 90px; left: 10px; z-index: 9999;">
@@ -50,8 +50,8 @@
 <script>
     
     
-            var map_a025ce9adc0b95b084975378aaf0e5c4 = L.map(
-                "map_a025ce9adc0b95b084975378aaf0e5c4",
+            var map_25463c95a03d9fd3d890fc98531f3d6a = L.map(
+                "map_25463c95a03d9fd3d890fc98531f3d6a",
                 {
                     center: [45.0, -114.0],
                     crs: L.CRS.EPSG3857,
@@ -60,25 +60,25 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_a025ce9adc0b95b084975378aaf0e5c4);
+            L.control.scale().addTo(map_25463c95a03d9fd3d890fc98531f3d6a);
 
             
 
         
     
-            var tile_layer_cadf1cd163d3906ec1a35fce9c054c21 = L.tileLayer(
+            var tile_layer_643c8876fd778aac20eee71d9992ac49 = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}",
                 {"attribution": "Tiles \u00a9 Esri \u0026mdash; Source: USGS, NOAA", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_a025ce9adc0b95b084975378aaf0e5c4);
+            ).addTo(map_25463c95a03d9fd3d890fc98531f3d6a);
         
     
-            var heat_map_122c6adb31eba9f591abb1bf151e1832 = L.heatLayer(
+            var heat_map_d2dab1303eb369ef7d8d3f51bee0be2c = L.heatLayer(
                 [[44.93417, -114.00443], [44.87224, -113.99192], [44.86323, -113.98883], [44.86323, -113.98883], [44.86497, -113.99473], [45.25505, -113.91125], [45.05836, -113.94567], [45.04975, -113.95065], [44.70498, -114.04518], [44.93158, -113.99483], [45.05856, -113.94474], [45.06514, -113.9539], [44.9947194, -114.4827806], [45.24926, -113.90435], [45.40366, -114.00052], [45.40334, -113.99218], [45.4047, -114.00454], [45.40354, -114.00101], [45.40117, -113.99578]],
                 {"blur": 15, "maxZoom": 18, "minOpacity": 0.3, "radius": 30}
-            ).addTo(map_a025ce9adc0b95b084975378aaf0e5c4);
+            ).addTo(map_25463c95a03d9fd3d890fc98531f3d6a);
         
     
-            var map = map_a025ce9adc0b95b084975378aaf0e5c4;
+            var map = map_25463c95a03d9fd3d890fc98531f3d6a;
             map.on('click', function(e) {
                 L.popup()
                  .setLatLng(e.latlng)
